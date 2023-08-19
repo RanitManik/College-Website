@@ -390,17 +390,16 @@ h3 {
 .sub-header {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/about_us.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/about_us.jpg);
   background-position: auto;
   background-size: cover;
   text-align: center;
-  color: white;
 }
 
 .sub-header h1 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 .about-us {
   width: 80%;
@@ -476,7 +475,7 @@ h3 {
   box-sizing: border-box;
 }
 .blog-right div:hover {
-  background-color:#8b8b8b;
+  background-color: #8b8b8b;
   border: #000 1px solid;
   color: #000;
   scale: 1.1;
