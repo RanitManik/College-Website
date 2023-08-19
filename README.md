@@ -80,7 +80,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 - Email - ranitmanikofficial@outlook.com
 
-- Project Link - [https://github.com/RanitManik/Plannet-Earth.git](https://github.com/RanitManik/College-Website.git)
+- Project Link - [College-Website](https://github.com/RanitManik/College-Website.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
