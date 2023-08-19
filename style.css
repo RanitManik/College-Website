@@ -208,6 +208,12 @@ h3 {
 .campus-col img {
   width: 100%;
   display: block;
+  object-fit: cover;
+  transition: all ease 0.5s;
+  scale: 1.1;
+}
+.campus-col:hover img {
+  scale: 1;
 }
 .layer {
   background: (226, 0, 0, 0.7);
@@ -352,9 +358,15 @@ h3 {
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
+  text-decoration: none;
+  transition: transform 0.3s ease;
 }
 .fa-heart-o {
   color: #f44336;
+}
+.icons .fa:hover {
+  color: #570802;
+  transform: scale(1.5);
 }
 .footer h1 {
   margin-bottom: 25px;
