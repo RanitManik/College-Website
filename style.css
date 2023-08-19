@@ -435,7 +435,7 @@ h3 {
 }
 
 .sub-header h1 {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
@@ -484,6 +484,19 @@ h3 {
     background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
       url(Images/bg3.jpg) center/cover; /* Center and cover the background */
     text-align: center;
+  }
+  .about-col img {
+    display: none;
+  }
+  .about-col {
+    flex-basis: 48%;
+    padding: 0px 2px;
+  }
+  .about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
 }
 
@@ -573,5 +586,14 @@ h3 {
 @media (max-width: 700px) {
   .sub-header h1 {
     font-size: 24px;
+  }
+  .blog-left img {
+    display: none;
+  }
+
+  .blog-content {
+    width: 80%;
+    margin: auto;
+    padding: 0px 0;
   }
 }
