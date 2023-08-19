@@ -2,11 +2,11 @@
 <br />
 <div align="center">
   <a href="https://ranitmanik.github.io/College-Website/">
-    <img src="Images/college_logo.png" alt="Logo" height="300">
+    <img src="Images/logo.png" alt="Logo" height="300">
   </a>
 <h1>DCU: Dynamic Convergence University Website
 </h1>
-<a href="https://ranitmanik.github.io/College-Website/" target="_blank"><strong>Visit DCU >></strong></a>
+<a href="https://ranitmanik.github.io/College-Website/">Visit the Website »</a>
 <br >
   <br>
 <a href="https://ranitmanik.github.io/College-Website/">View Demo</a>
