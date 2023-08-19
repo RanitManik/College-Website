@@ -11,9 +11,9 @@
   <br>
 <a href="https://ranitmanik.github.io/College-Website/">View Demo</a>
 ·
-<a href=".github/ISSUE/bug-report---.md">Report Bug</a>
+<a href=".github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
 ·
-<a href=".github/ISSUE/feature-request---.md">Request Feature</a>
+<a href=".github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
   </p>
 </div>
 <br>
@@ -59,9 +59,9 @@ _To get started with this project, follow these steps :_
   - [ ] Nested Feature
 
 
- [open issues](.github/ISSUE/bug-report---.md) for a full list of and known issues.
+ [open issues](.github/ISSUE_TEMPLATE/bug_report.md) for a full list of and known issues.
  
- [open features](.github/ISSUE/bug-report---.md) to propose a feature.
+ [open features](.github/ISSUE_TEMPLATE/feature_request.md) to propose a feature.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
