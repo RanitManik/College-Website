@@ -175,8 +175,9 @@ h1 {
 }
 
 .course-intro p {
-  color: #000;
-  margin-top: 35px;
+  color: #555;
+  margin-top: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
@@ -185,6 +186,7 @@ h3 {
   color: #000000;
   margin: 10px 0;
   font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .course-col:hover {
@@ -210,6 +212,8 @@ h3 {
 
 .campus p {
   margin-top: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #555;
 }
 
 .campus-col {
@@ -275,6 +279,7 @@ h3 {
 
 .facilities-intro p {
   margin-top: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .facilities-col {
