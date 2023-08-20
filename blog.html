@@ -82,44 +82,44 @@
             turn your ideas into tangible innovations.
             <br />
             <br />
-
-            <!-- We understand that each student's journey is unique, which is why
-            our program offers flexibility in learning. This is further
-            bolstered by the provision of specialized tracks within various
-            engineering disciplines. These tracks enable you to tailor your
-            learning path according to your interests and ambitions.
-            <br />
-            <br />
-
-            As you embark on this transformative journey, rest assured that our
-            commitment to your growth extends beyond academics. Our career
-            guidance services are designed to equip you with the tools needed to
-            navigate the ever-evolving job market with confidence.
-            <br />
-            <br />
-
-            Upon successful completion of the program, you will be bestowed with
-            a distinguished certificate. This certificate serves as a testament
-            to your unwavering dedication to the pursuit of engineering
-            excellence.
-            <br />
-            <br /> -->
-
             We wholeheartedly invite you to join us at DCU Engineering College
             and become an integral part of shaping your own engineering future.
           </p>
 
           <div class="comment-box">
-            <h3>Leave a comment</h3>
-            <form class="comment-form" action="form.php" method="post">
-              <input type="text" placeholder="Enter Name"  required/>
-              <input type="email" placeholder="Enter Email"  required/>
-              <textarea placeholder="Enter Comment" rows="5" required></textarea>
-              <button type="submit" class="hero-btn red-btn">
-                Post Comment
-              </button>
-            </form>
-          </div>
+    <h3>Leave a comment</h3>
+    <form class="comment-form" id="comment-form">
+        <input type="text" name="name" placeholder="Enter Name" required/>
+        <input type="email" name="email" placeholder="Enter Email" required/>
+        <textarea name="message" placeholder="Enter Comment" rows="5" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+    </form>
+</div>
+
+<script>
+document.getElementById('comment-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Collect form data
+    const formData = new FormData(this);
+
+    // Send form data using AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'form_handler.php', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                alert('Comment posted successfully!');
+                // You can update the UI as needed here
+            } else {
+                alert('Error posting comment.');
+            }
+        }
+    };
+    xhr.send(formData);
+});
+</script>
+
         </div>
         <div class="blog-right">
           <h3>Post Categories</h3>
@@ -154,27 +154,6 @@
           <div>
             <span>Electrical Engineering</span>
             <span>21</span>
-          <!-- </div>
-          <div>
-            <span>Industrial Engineering</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Chemical Engineering </span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Aerospace Engineering </span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Agricultural Engineering </span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Biomedical Engineering </span>
-            <span>21</span>
-          </div> -->
         </div>
       </div>
     </section>

@@ -92,15 +92,39 @@
         </div>
 
         <div class="contact-col">
-          <form action="form.php" method="post">
-            <input type="text" placeholder="Enter your name" required />
-            <input type="text" placeholder="Enter your email" required />
-            <input type="text" placeholder="Enter your subject" required />
-            <textarea placeholder="Message" rows="10" required></textarea>
-            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          <form id="contact-form">
+              <input type="text" name="name" placeholder="Enter your name" required/>
+              <input type="email" name="email" placeholder="Enter your email" required/>
+              <input type="text" name="subject" placeholder="Enter your subject" required/>
+              <textarea name="message" placeholder="Message" rows="10" required></textarea>
+              <button type="submit" class="hero-btn red-btn">Send Message</button>
           </form>
-        </div>
       </div>
+      
+      <script>
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+      
+          // Collect form data
+          const formData = new FormData(this);
+      
+          // Send form data using AJAX
+          const xhr = new XMLHttpRequest();
+          xhr.open('POST', 'form_handler.php', true);
+          xhr.onreadystatechange = function() {
+              if (xhr.readyState === XMLHttpRequest.DONE) {
+                  if (xhr.status === 200) {
+                      alert('Message sent successfully!');
+                      // You can update the UI as needed here
+                  } else {
+                      alert('Error sending message.');
+                  }
+              }
+          };
+          xhr.send(formData);
+      });
+      </script>
+      
     </section>
     <!-- ----------footer---------------- -->
 
