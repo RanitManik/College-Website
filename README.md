@@ -22,7 +22,8 @@
 
 # About The Project
 
-This repository contains a practice project for creating the DCU: Dynamic Convergence University website. It's not an official release, but rather a personal project for practicing web development skills.
+Within this repository, you'll discover a practice project focused on constructing the DCU: Dynamic Convergence University website. This endeavor encompasses both frontend and backend development, serving as a personal platform for honing comprehensive web development skills. Please note that this is not an official release but rather an educational undertaking.
+This is a 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Getting Started
@@ -92,7 +93,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 - Feel free to check it out and see the source of inspiration for this project.
 
-- Thank you for visiting Planet-Earth, and we hope you enjoy exploring the wonders of our beautiful planet!
+- Thank you for visiting my college website, and we hope you enjoy exploring my repository!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
