@@ -22,8 +22,7 @@
 
 # About The Project
 
-Within this repository, you'll discover a practice project focused on constructing the DCU: Dynamic Convergence University website. This endeavor encompasses both frontend and backend development, serving as a personal platform for honing comprehensive web development skills. Please note that this is not an official release but rather an educational undertaking. I developed the website primarily using HTML and CSS, but I integrated PHP to handle the backend mailing system.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Within this repository, you'll discover a practice project focused on constructing the DCU: Dynamic Convergence University website. This endeavor encompasses both frontend and backend development, serving as a personal platform for honing comprehensive web development skills. Please note that this is not an official release but rather an educational undertaking. I developed the website primarily using HTML and CSS, but I integrated PHP to handle the backend mailing system. Hope you will like that.
 
 # Getting Started
 
