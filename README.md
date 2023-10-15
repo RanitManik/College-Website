@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://ranitmanik.github.io/College-Website/">
-    <img src="Images/college_logo.png" alt="Logo" height="200">
+    <img src="Images/college_logo.png" alt="Logo" height="150">
   </a>
 <h1>DCU: Dynamic Convergence University Website
 </h1>
