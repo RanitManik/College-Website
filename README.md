@@ -6,10 +6,10 @@
   </a>
 <h1>DCU: Dynamic Convergence University Website
 </h1>
-<a href="https://dynamicconvergenceuniversity.000webhostapp.com/">Visit the Website »</a>
+<a href="https://ranitmanik.github.io/College-Website/">Visit the Website »</a>
 <br >
   <br>
-<a href="https://dynamicconvergenceuniversity.000webhostapp.com/">View Demo</a>
+<a href="https://ranitmanik.github.io/College-Website/">View Demo</a>
 ·
 <a href=".github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
 ·
