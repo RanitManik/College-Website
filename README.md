@@ -48,28 +48,12 @@ _To get started with this project, follow these steps :_
 
    ```bash
     git push --set-upstream origin DEV/{your_name}/{in which you working on}
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-
- [open issues](.github/ISSUE_TEMPLATE/bug_report.md) for a full list of and known issues.
- 
- [open features](.github/ISSUE_TEMPLATE/feature_request.md) to propose a feature.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 # License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 
@@ -81,7 +65,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 - Project Link - [College-Website](https://github.com/RanitManik/College-Website.git)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -92,7 +76,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 - Feel free to check it out and see the source of inspiration for this project.
 
 - Thank you for visiting my college website, and we hope you enjoy exploring my repository!
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
